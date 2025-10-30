@@ -44,12 +44,14 @@
    grid-area: nav;
 }
  nav ul {
-     list-style: none;
+     list-style: upper-roman;
+
      /* display: flex;
      gap: 15px; */
 }
 nav ul li {
-     margin: 16px;
+     margin: 1px;
+     margin-top: 30px;
 }
  nav a {
      text-decoration: none;
@@ -85,4 +87,13 @@ nav ul li {
  footer{
      grid-area: footer;
 }
- 
+ h1{
+     font-size: 50px;
+
+
+ }
+ h2{
+     font-size: 18px;
+
+
+ }
