@@ -42,6 +42,7 @@
 }
  nav {
    grid-area: nav;
+   background-color: #ffd900;
 }
  nav ul {
      list-style: upper-roman;
@@ -58,22 +59,44 @@ nav ul li {
 }
  nav a:hover {
      text-decoration: underline;
-     background-color: #ffa600;
+     background-color: #1100ff0e;
      color: #000000;
      padding: 16px;
      border-radius: 12px;
      text-align: center;
      font-size: 1rem;
 }
+main img{
+    height: 250px;
+    padding-right: 100px;
+    margin-right: 700px;
+    text-align: left;
+}
  main{
      grid-area: main;
     /* justify-content:flex-end ;
      align-self: flex-end;
      */
-     text-align: right;
+     /* text-align: right; */
      border: 1px solid;
      min-height: 60vh;
 }
+main h1 { 
+    text-align: right;
+}
+
+main ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+main ul li {
+    list-style-type: none;
+    flex-grow: 1;
+}
+
+
  article{
      flex: 0,0,20%;
 }
@@ -86,6 +109,7 @@ nav ul li {
 }
  footer{
      grid-area: footer;
+     
 }
  h1{
      font-size: 50px;
@@ -99,7 +123,12 @@ nav ul li {
  }
 
  header img {
-     height: 90px;
-     width: 190px;
+     height: 80px;
      
+ }
+
+ header h1 {
+    text-align: right;
+    width: 80%;
+    float:right;
  }
