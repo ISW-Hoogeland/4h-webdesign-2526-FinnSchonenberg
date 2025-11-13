@@ -107,6 +107,9 @@ main ul li {
      align-items: stretch;
      align-content: space-evenly;
 }
+footer img{
+    height: 100px; ;
+}
  footer{
      grid-area: footer;
      
